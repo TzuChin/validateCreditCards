@@ -1,7 +1,7 @@
 ## Feature
 1. 提供針對**單一檔案**或**特定資料夾**下所有檔案的內容進行信用卡號規則驗證。
 2. 主要以批次校驗為目的。  
-3. 以產出 Report 呈現結果。
+3. 以產出 Report File 呈現結果。
 
 ## 操作說明
 1. 檔案內容格式應遵循下方範例內容: (每一行文字皆為一組卡號)
@@ -21,7 +21,7 @@
     -d     | 提供產出的檔案路徑及檔名 | ./test.txt
     
     Example:  
-    `php validateCard.php -s=~/analysis/ -d=./result.txt`
+    `php validateCard.php -s=./analysis/ -d=./result.txt`
 4. 最後呈現結果如下  
    
    Title|Description
